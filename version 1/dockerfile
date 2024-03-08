@@ -1,7 +1,0 @@
-FROM nginx:alpine
-
-COPY index.html /usr/share/nginx/html/index.htmlx
-
-WORKDIR /web-app
-
-EXPOSE  8080
