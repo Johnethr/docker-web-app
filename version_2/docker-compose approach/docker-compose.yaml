@@ -1,0 +1,10 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - '80:80'
+    
+      
+
+  app:
+    image: php:8.1-fpm-alpine
